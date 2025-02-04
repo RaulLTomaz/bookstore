@@ -3,7 +3,7 @@ name = "bookstore"
 version = "0.1.0"
 description = "Book Store API"
 authors = [
-    {name = "Raul Lopes Tomaz",email = "105323797+RaulLTomaz@users.noreply.github.com"}
+    {name = "Raul Lopes Tomaz", email = "105323797+RaulLTomaz@users.noreply.github.com"}
 ]
 readme = "README.md"
 requires-python = ">=3.12"
@@ -12,15 +12,13 @@ dependencies = [
     "factory-boy (>=3.3.1,<4.0.0)",
     "django (>=5.1.4,<6.0.0)",
     "djangorestframework (>=3.15.2,<4.0.0)",
-    "django-rest-framework (>=0.1.0,<0.2.0)",
     "pytest-django (>=4.9.0,<5.0.0)",
     "django-extensions (>=3.2.3,<4.0.0)",
     "django-debug-toolbar (>=5.0.1,<6.0.0)",
     "psycopg2-binary (>=2.9.10,<3.0.0)",
     "flake8 (>=7.1.1,<8.0.0)",
-    "black (>=25.1.0,<26.0.0)"
+    "black (>=25.1.0,<26.0.0)",
 ]
-
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
