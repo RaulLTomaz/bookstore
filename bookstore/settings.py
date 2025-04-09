@@ -147,6 +147,7 @@ REST_FRAMEWORK = {
         "rest_framework.authentication.SessionAuthentication",
         "rest_framework.authentication.TokenAuthentication",
     ],
+    "DEFAULT_PERMISSION_CLASSES": [],  # Permite acesso público por padrão
 }
 
 
