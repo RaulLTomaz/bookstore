@@ -29,7 +29,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     "localhost",
     "127.0.0.1",
-    "bookstore-api-1.herokuapp.com",
+    "bookstore-api-1-6f876fdce6c2.herokuapp.com",
     "drsantos20.pythonanywhere.com",
 ]
 
